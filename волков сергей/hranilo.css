@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Убираем отступы по умолчанию */
+    display: flex; /* Используем flexbox для центрирования */
+    flex-direction: column; /* Вертикальное выравнивание */
+    min-height: 100px; /* Занимает всю высоту окна */
+    background-color: #EDF2F7;
+    display: flex;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between; /* Размещаем логотип и кнопку справа */
+    align-items: center; /* Вертикальное выравнивание */
+    padding: 10px;
+    background-color: #8FA2CA; /* Цвет фона шапки */
+  }
+  
+  .logo {
+    height: 50 px; /* Размер логотипа */
+    display: flex;
+}
+  
+  .logout-button {
+    background-color: #EDF2F7; /* Зеленый цвет кнопки */
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  main {
+    flex: 1; /* Занимает оставшееся пространство */
+    display: flex;
+    justify-content: center; /* Центрируем кнопку в основном содержимом */
+    align-items: center; /* Вертикальное выравнивание */
+  }
+  
+  .center-logo {
+    height: 20px; /* Размер центрального логотипа */
+    display: flex;
+  }
+  .file-grid {
+    display: grid;
+    grid-gap: 100px;
+  }
+  .file-item {
+    border: 5px solid #ccc;
+    padding: 100px;
+  }
+  

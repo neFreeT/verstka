@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=""
-    <title>Document</title>
+    <link rel="stylesheet" href="hranilo.css"
+    <link rel="JavaScript" href="export.js"
+    <title>Хранилище</title>
 </head>
 <body>
-    
-</body>
+    <header>
+        <img src="your_logo.png" alt="Логотип" class="logo">
+        <a class="logout-button" href="index (1).html">Выход</a>
+      </header>
+      <main>
+       <div class="center-logo">
+        <img src="your_logo.png" alt="Хранилище" >
+
+         <div class="file-grid" id="file-grid">
+         </div>
+
+         <button for="export-button">Экспорт</button>
+         <input type="file" id="import-button" style="display:flex;">
+         <label for="import-button">Импорт</label>
+         
+        </main>
+        <script>
+            const fileGrid = document.getElementById('file-grid');
+            const exportButton = document.getElementById('export-button');
+            const importButton = document.getElementById('import-button');
+          </script>
+          
+    </body>
 </html>
