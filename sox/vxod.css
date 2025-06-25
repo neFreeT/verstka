@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #8FA2CA;
+  }
+  
+  .login-container {
+    background-color: #EDF2F7;
+    align-items: center;
+    padding: 200px;
+    border-radius: 12.5%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    border-color: #8FA2CA;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8fa2ca91;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .login-container button {
+    background-color: #8FA2CA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  a {
+    display: inline-block; /* Важно для правильной работы padding и margin */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: 2px solid #007bff; /* Граница кнопки */
+    border-radius: 5px; /* Скругленные углы */
+    background-color: #fff; /* Фон кнопки */
+    text-decoration: none; /* Удаление подчеркивания у ссылки */
+    color: #007bff; /* Цвет текста (если логотип содержит текст) */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавная анимация */
+  }
+  
+  a:hover {
+    background-color: #0069d9; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+    transform: translateY(-2px); /* Небольшое смещение при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень при наведении */
+  }
+.logo {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 400px;
+    height: 250px;
+    object-fit: contain;
+}

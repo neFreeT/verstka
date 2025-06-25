@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hranilo.css"
+    <link rel="JavaScript" href="export.js"
+    <title>Хранилище</title>
+</head>
+<body>
+    <header>
+        <img src="лого.png" alt="Логотип" class="logo">
+        <a class="logout-button" href="index.html">Выход</a>
+      </header>
+      <main>
+       <div class="center-logo">
+        <img src="лого.png" alt="Хранилище" class="logo">
+
+         <div class="file-grid" id="file-grid">
+         </div>
+
+         <button for="export-button">Экспорт</button>
+         <input type="file" id="import-button" style="display:flex;">
+         <label for="import-button">Импорт</label>
+         
+        </main>
+         <h1>Выберите файл для загрузки:</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploaded_file"><br><br>
+        <button type="submit">Отправить файл</button>
+    </form>
+        <script>
+            const fileGrid = document.getElementById('file-grid');
+            const exportButton = document.getElementById('export-button');
+            const importButton = document.getElementById('import-button');
+          </script>
+          
+    </body>
+</html>
